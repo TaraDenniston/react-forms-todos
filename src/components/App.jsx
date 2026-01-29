@@ -1,12 +1,10 @@
-import { useState } from 'react'
+import TodoList from './TodoList'
 import '../styles/App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <p>Content goes here.</p>
+      <TodoList />
     </>
   )
 }
