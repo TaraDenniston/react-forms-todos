@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import NewTodoForm from './NewTodoForm';
-import { faUserInjured } from '@fortawesome/free-solid-svg-icons';
 
 
 const TodoList = () => {
