@@ -1,18 +1,19 @@
-import { render , fireEvent } from '@testing-library/react';
-import TodoList from './TodoList';
-import { describe, it, expect } from 'vitest';
+import { render } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import NewTodoForm from './NewTodoForm';
+import { describe, it, expect, vi } from 'vitest';
 
-describe('TodoList', () => {
+describe('NewTodoForm', () => {
   it('renders without crashing', () => {
-    render(<TodoList />);
+    render(<NewTodoForm />);
   });
 
   it('matches snapshot', () => {
-    const { asFragment } = render(<TodoList />);
+    const { asFragment } = render(<NewTodoForm />);
     expect(asFragment()).toMatchSnapshot();
   })
 
-  // Add test: 'should add new todo item'
+  // Add test: 'calls addTodo with form data on submit'
 
-  // Add test: 'should display multiple todo items'
+  // Add test: 'rests form after submit'
 });
