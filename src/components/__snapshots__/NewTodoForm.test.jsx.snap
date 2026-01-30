@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TodoList > matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      To Do
+    </h1>
+    <div>
+      <form>
+        <input
+          id="todo"
+          name="todo"
+          placeholder="Add new item"
+          type="text"
+          value=""
+        />
+        <button
+          type="submit"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-circle-plus"
+            data-icon="circle-plus"
+            data-prefix="fas"
+            role="img"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zM232 344l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+    <p>
+      List of Todo Items
+    </p>
+  </div>
+</DocumentFragment>
+`;
